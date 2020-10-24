@@ -26,15 +26,15 @@ function setup() {
 	//Create the Bodies Here.
    
     ground = Bodies.rectangle(500,600,1000,10,options);
-   stone1 = new stone(165,495,30);
-   mango1 = new mango(750,250,50);
-   mango2 = new mango(650,250,50);
-   mango3 = new mango(750,150,50);
-   mango4 = new mango(650,150,50);
-   mango5 = new mango(800,200,50);
-   mango6 = new mango(850,250,50);
-   mango7 = new mango(750,70,50,);
-   mango8 = new mango(600,250,50);
+   stone1 = new stone(165,495,15);
+   mango1 = new mango(750,250,25);
+   mango2 = new mango(650,250,25);
+   mango3 = new mango(750,150,25);
+   mango4 = new mango(650,150,25);
+   mango5 = new mango(800,200,25);
+   mango6 = new mango(850,250,25);
+   mango7 = new mango(750,70,25);
+   mango8 = new mango(600,250,25);
      
    chain1 = new chain(stone1.body,{x: 165 , y: 495});
     World.add(world,ground);
